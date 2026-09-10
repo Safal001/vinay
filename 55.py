@@ -1,4 +1,4 @@
- 
+# Write a Python program to check whether a number is a perfect number. A number is perfect if the sum of its proper divisors is equal to the number itself.
 n = int(input("Enter a number: "))
 
 sum = 0
