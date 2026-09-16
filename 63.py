@@ -1,6 +1,8 @@
-# WAP to print a inverted right angled triangle using stars
-n = 4
-for i in range(n):#rows
-    for j in range(n-i):#stars
-        print("*", end = " ")
+# WAP to print floyd triangle 
+n = int(input("Enter number of rows: "))
+num = 1
+for i in range(1, n + 1):
+    for j in range(i):
+        print(num, end=" ")
+        num = num + 1
     print()
